@@ -1,0 +1,1 @@
+This is a project that pulls youtube videos from reddit.com/r/leagueoflegends and creates a youtube playlist of them.
