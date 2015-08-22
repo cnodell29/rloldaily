@@ -13,7 +13,7 @@ public class Web {
 
 		get("/", (req, res) -> {
 			Map<String, Object> attributes = new HashMap<>();
-			attributes.put("message", "Welcome to the daily generated r/leagueoflegends youtube playlist!");
+			attributes.put("message", "Welcome to the daily generated r/leagueoflegends youtube playlist! Testing from laptop");
 
 			return new ModelAndView(attributes, "index.ftl");
 		}, new FreeMarkerEngine());
